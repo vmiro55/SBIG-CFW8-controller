@@ -14,13 +14,16 @@ Serial communication description:
 *********************************
 
 Sending a number from 1 to 5 ended with carriage return moves to appropriate filter and returns a filter name, for example:
+
 '1\r' -> serial -> CFW
 CFW -> 'Red' -> serial
 
 Sending "9" retreives a current filter position:
+
 '9\r' -> serial -> CFW
 CFW -> 'Red' -> serial
 
 Any other number returns an error message:
+
 '8\r' -> serial -> CFW
 CFW -> 'Error' -> serial
