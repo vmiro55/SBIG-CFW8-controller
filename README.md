@@ -9,9 +9,9 @@ Change char *filter_color[] = {"Red", "Green", "Blue","Lumin.", "Clear"};  // ch
 
 Implemented serial support for communication with INDI, ASCOM...
 
-*********************************
-Serial communication description:
-*********************************
+
+## Serial communication description:
+
 
 Sending a number from 1 to 5 ended with carriage return moves to appropriate filter and returns a filter name, for example:
 
